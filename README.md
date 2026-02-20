@@ -1,5 +1,3 @@
-# Motor_Vehicle_Thefts_Analysis
-
 <div style='font-family: Segoe UI, sans-serif; padding: 10px; color: #24292e; background-color: #e5e5e5; border: 1px solid #e5e5e5; border-radius: 15px;'>
     
   <h1 style='text-align: center; font-weight: bold; font-size: 54px; border-bottom: 1px solid #eaecef; padding-bottom: 10px;'>
