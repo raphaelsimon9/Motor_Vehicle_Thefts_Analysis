@@ -13,7 +13,7 @@
     </p>
 
   <p style='line-height: 1.6; font-size: 20px; margin-top: 15px;'>
-    <a href=https://www.police.govt.nz/can-you-help-us/stolen-vehicles>Source: Newzealand Police Department</a> 
+    <a href=https://www.police.govt.nz/can-you-help-us/stolen-vehicles target="_blank" rel="noopener noreferrer">Source: Newzealand Police Department</a> 
     </p>
 
   <h3 style='text-align: left; font-weight: bold; font-size: 34px; margin-top: 25px; border-bottom: 1px solid #eaecef;'>
