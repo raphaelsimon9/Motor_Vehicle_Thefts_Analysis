@@ -1,0 +1,21 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["stolen_vehicles","All Measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table stolen_vehicles
+ref table 'All Measures'
+ref table 'Data Labels'
+ref table 'VAR RegionCounts'
+
+ref cultureInfo en-US
+

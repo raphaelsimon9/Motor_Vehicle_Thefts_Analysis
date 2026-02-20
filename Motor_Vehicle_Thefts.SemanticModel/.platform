@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Motor_Vehicle_Thefts"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "08b1c0cd-f3d6-4f86-900a-e1db0c7d921c"
+  }
+}

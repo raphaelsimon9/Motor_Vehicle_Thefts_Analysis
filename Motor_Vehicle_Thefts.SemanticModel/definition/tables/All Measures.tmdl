@@ -1,0 +1,394 @@
+table 'All Measures'
+	lineageTag: 4a5aa989-e285-4402-942c-c66d835ee9cb
+
+	measure 'Highest Theft Day of Week' = ```
+			
+			VAR DayCounts = 
+			    SUMMARIZE(
+			        stolen_vehicles, 
+			        stolen_vehicles[Day Name], 
+			        "TheftCount", COUNTROWS(stolen_vehicles)
+			    )
+			VAR MaxNum = MAXX(DayCounts, [TheftCount])
+			
+			VAR MinNum = MINX(DayCounts, [TheftCount])
+			
+			VAR TopDay = 
+			    TOPN(1, DayCounts, [TheftCount], DESC)
+			
+			VAR BottomDay = 
+			    TOPN(1, DayCounts, [TheftCount], ASC)
+			
+			RETURN 
+			    MAXX(TopDay, stolen_vehicles[Day Name]) & UNICHAR(10) & "Has the highest number of vehicles stolen with " & MaxNum &
+			    UNICHAR(10) &
+			    UNICHAR(10) &
+			    "While"     &
+			    UNICHAR(10) &
+			    UNICHAR(10) &
+			    MAXX(BottomDay, stolen_vehicles[Day Name]) & UNICHAR(10) & "Has the least number of vehicles stolen with " &
+			    MinNum
+			
+			```
+		lineageTag: 4b8d55b3-71c4-4d54-8251-682659620e93
+
+	measure 'Number of Vehicles' =
+			
+			COUNTROWS(stolen_vehicles)
+		formatString: #,0
+		lineageTag: bddc4635-0a28-4685-815d-876f2a42397c
+
+	measure 'Max Marker' =
+			
+			VAR MaxVal = MAXX(ALLSELECTED(stolen_vehicles[date_stolen]), [Number of Vehicles])
+			
+			RETURN
+			IF([Number of Vehicles] = MaxVal, [Number of Vehicles], BLANK())
+		formatString: 0
+		lineageTag: 4848e59f-e652-4d30-88d1-3fdf00aafb3a
+
+	measure 'Min Marker' =
+			
+			VAR MinVal = MINX(ALLSELECTED(stolen_vehicles[date_stolen]), [Number of Vehicles])
+			
+			RETURN
+			IF([Number of Vehicles] = MinVal, [Number of Vehicles], BLANK())
+		formatString: 0
+		lineageTag: e36ab291-f269-48bb-99d2-75e52f45ff68
+
+	measure 'Data Labels' = ```
+			
+			
+			VAR DayCounts = 
+			    SUMMARIZE(
+			        ALLSELECTED(stolen_vehicles), 
+			        stolen_vehicles[Day Name], 
+			        "TheftCount", [Number of Vehicles]
+			    )
+			
+			VAR MaxPoint = MAXX(DayCounts, [TheftCount])
+			VAR MinPoint = MINX(DayCounts, [TheftCount])
+			
+			VAR CurrentValue = [Number of Vehicles]
+			
+			RETURN
+			IF(CurrentValue = MaxPoint || CurrentValue = MinPoint, CurrentValue, BLANK())
+			```
+		formatString: 0
+		lineageTag: 72bd595f-43a1-4b13-b93b-7891f6e30a82
+
+	measure 'Marker Color Logic' =
+			
+			VAR CurrentVal = [Number of Vehicles] -- The value being plotted
+			VAR MaxNum = MAXX(ALLSELECTED('stolen_vehicles'), [Number of Vehicles])
+			VAR MinNum = MINX(ALLSELECTED('stolen_vehicles'), [Number of Vehicles])
+			
+			RETURN
+			    SWITCH( TRUE(),
+			        CurrentVal = MaxNum, "#FF0000", -- Red
+			        CurrentVal = MinNum, "#00FF00", -- Green
+			        "#333333" -- Default color (Gray) for everything else
+			    )
+		lineageTag: 86db9c29-0048-41b6-b279-44f5f14df17b
+
+	measure 'Most Stolen Vehicle' = ```
+			
+			
+			-- Theft By Vehicle Type
+			VAR VehicleCounts = 
+			    SUMMARIZE(
+			        stolen_vehicles, 
+			        stolen_vehicles[vehicle_type], 
+			        "TheftCount", COUNTROWS(stolen_vehicles)
+			    )
+			
+			-- Vehicle Theft By Region
+			VAR RegionCounts = 
+			    SUMMARIZE(
+			        stolen_vehicles, 
+			        stolen_vehicles[vehicle_type], 
+			        "RegionTheftCount", COUNTROWS(stolen_vehicles)
+			    )
+			
+			VAR MaxNum = MAXX(VehicleCounts, [TheftCount])
+			
+			VAR MinNum = MINX(VehicleCounts, [TheftCount])
+			
+			VAR TopDay = 
+			    TOPN(1, VehicleCounts, [TheftCount], DESC)
+			
+			VAR BottomDay = 
+			    TOPN(1, VehicleCounts, [TheftCount], ASC)
+			
+			-- Theft By Region
+			VAR RegMaxNum = MAXX(RegionCounts, [RegionTheftCount])
+			
+			VAR RegMinNum = MINX(RegionCounts, [RegionTheftCount])
+			
+			VAR RegTopDay = 
+			    TOPN(1, RegionCounts, [RegionTheftCount], DESC)
+			
+			VAR RegBottomDay = 
+			    TOPN(1, RegionCounts, [RegionTheftCount], ASC)
+			
+			RETURN 
+			    MAXX(TopDay, stolen_vehicles[vehicle_type])
+			    // & UNICHAR(10) & "Has the highest number of vehicles stolen with " & MaxNum &
+			    // UNICHAR(10) &
+			    // UNICHAR(10) &
+			    // "While"     &
+			    // UNICHAR(10) &
+			    // UNICHAR(10) &
+			    // MAXX(BottomDay, stolen_vehicles[vehicle_type]) & UNICHAR(10) & "Has the least number of vehicles stolen with " &
+			    // MinNum
+			
+			```
+		lineageTag: 2d08c2b7-4b9c-43d3-a310-62332d2c2ce0
+
+	measure 'Most Stolen Vehicle (Reference Label)' = ```
+			
+			
+			-- Theft By Vehicle Type
+			VAR VehicleCounts = 
+			    SUMMARIZE(
+			        stolen_vehicles, 
+			        stolen_vehicles[vehicle_type], 
+			        "TheftCount", COUNTROWS(stolen_vehicles)
+			    )
+			
+			-- Vehicle Theft By Region
+			VAR RegionCounts =
+			        SUMMARIZE(
+			        stolen_vehicles,
+			        stolen_vehicles[vehicle_type],
+			        stolen_vehicles[region],
+			        "RegionTheftCount", COUNTROWS(stolen_vehicles)
+			    )
+			
+			VAR MaxNum = MAXX(VehicleCounts, [TheftCount])
+			
+			VAR MinNum = MINX(VehicleCounts, [TheftCount])
+			
+			VAR TopDay = 
+			    TOPN(1, VehicleCounts, [TheftCount], DESC)
+			
+			VAR BottomDay = 
+			    TOPN(1, VehicleCounts, [TheftCount], ASC)
+			
+			-- Theft By Region
+			VAR RegMaxNum = MAXX(RegionCounts, [RegionTheftCount])
+			
+			VAR RegMinNum = MINX(RegionCounts, [RegionTheftCount])
+			
+			VAR RegTopDay = 
+			    TOPN(1, RegionCounts, [RegionTheftCount], DESC)
+			
+			VAR RegBottomDay = 
+			    TOPN(1, RegionCounts, [RegionTheftCount], ASC)
+			
+			RETURN 
+			    // MAXX(TopDay, stolen_vehicles[vehicle_type]) & UNICHAR(10) &
+			    "Has the highest number of stolen vehicles with " & MaxNum & " with " & MAXX(regTopDay, stolen_vehicles[region]) & " being the highest region."
+			    // & UNICHAR(10) &
+			    // MAXX(regTopDay, stolen_vehicles[region]) & " alone."
+			    // & UNICHAR(10) & 
+			    // UNICHAR(10) &
+			    // UNICHAR(10) &
+			    // "While"     &
+			    // UNICHAR(10) &
+			    // UNICHAR(10) &
+			    // MAXX(BottomDay, stolen_vehicles[vehicle_type]) & UNICHAR(10) & "Has the least number of vehicles stolen with " &
+			    // MinNum
+			
+			```
+		lineageTag: 0bd3b3f0-3804-40d2-8f27-45086b11a247
+
+	measure 'Max Number' = ```
+			
+			-- Vehicle Theft By Region
+			VAR RegionCounts = 
+			    SUMMARIZE(
+			        stolen_vehicles, 
+			        stolen_vehicles[region], 
+			        "RegionTheftCount", COUNTROWS(stolen_vehicles)
+			    )
+			
+			VAR MaxNum = MAXX(RegionCounts, [RegionTheftCount])
+			
+			VAR MinNum = MINX(RegionCounts, [RegionTheftCount])
+			
+			VAR TopDay = 
+			    TOPN(1, RegionCounts, [RegionTheftCount], DESC)
+			
+			VAR BottomDay = 
+			    TOPN(1, RegionCounts, [RegionTheftCount], ASC)
+			
+			RETURN 
+			    MaxNum
+			    // & UNICHAR(10) & "Has the highest number of vehicles stolen with " & MaxNum &
+			    // UNICHAR(10) &
+			    // UNICHAR(10) &
+			    // "While"     &
+			    // UNICHAR(10) &
+			    // UNICHAR(10) &
+			    // MAXX(BottomDay, stolen_vehicles[vehicle_type]) & UNICHAR(10) & "Has the least number of vehicles stolen with " &
+			    // MinNum
+			
+			```
+		formatString: 0
+		lineageTag: 961ee79c-11c2-4425-afc7-9ba0436667e6
+
+	measure 'Min Number' = ```
+			
+			-- Vehicle Theft By Region
+			VAR RegionCounts = 
+			    SUMMARIZE(
+			        stolen_vehicles, 
+			        stolen_vehicles[region], 
+			        "RegionTheftCount", COUNTROWS(stolen_vehicles)
+			    )
+			
+			VAR MaxNum = MAXX(RegionCounts, [RegionTheftCount])
+			
+			VAR MinNum = MINX(RegionCounts, [RegionTheftCount])
+			
+			VAR TopDay = 
+			    TOPN(1, RegionCounts, [RegionTheftCount], DESC)
+			
+			VAR BottomDay = 
+			    TOPN(1, RegionCounts, [RegionTheftCount], ASC)
+			
+			RETURN 
+			    MinNum
+			    // & UNICHAR(10) & "Has the highest number of vehicles stolen with " & MaxNum &
+			    // UNICHAR(10) &
+			    // UNICHAR(10) &
+			    // "While"     &
+			    // UNICHAR(10) &
+			    // UNICHAR(10) &
+			    // MAXX(BottomDay, stolen_vehicles[vehicle_type]) & UNICHAR(10) & "Has the least number of vehicles stolen with " &
+			    // MinNum
+			
+			```
+		formatString: 0
+		lineageTag: 75402546-44ad-407e-9f28-66f01345f1b5
+
+	measure 'Max Num' =
+			
+			VAR MaxVal = MAXX(ALLSELECTED(stolen_vehicles[region]), [Number of Vehicles])
+			
+			RETURN
+			IF([Number of Vehicles] = MaxVal, [Number of Vehicles], BLANK())
+		formatString: #,0
+		lineageTag: ee212d62-d5a1-47be-a964-77cf03d27990
+
+	measure 'Min Num' =
+			
+			VAR MinVal = MINX(ALLSELECTED(stolen_vehicles[region]), [Number of Vehicles])
+			
+			RETURN
+			IF([Number of Vehicles] = Minval, [Number of Vehicles], BLANK())
+		formatString: #,0
+		lineageTag: 1af99cf2-03f4-4a0c-85bf-4ed9088cdbb1
+
+	measure 'Highest Theft Day of Week (HTML)' = ```
+			
+			VAR DayCounts = 
+			    SUMMARIZE(
+			        stolen_vehicles, 
+			        stolen_vehicles[Day Name], 
+			        "TheftCount", COUNTROWS(stolen_vehicles)
+			    )
+			VAR MaxNum = MAXX(DayCounts, [TheftCount])
+			
+			VAR MinNum = MINX(DayCounts, [TheftCount])
+			
+			VAR TopDay = 
+			    MAXX(TOPN(1, DayCounts, [TheftCount], DESC), stolen_vehicles[Day Name])
+			
+			VAR BottomDay = 
+			    MAXX(TOPN(1, DayCounts, [TheftCount], ASC), stolen_vehicles[Day Name])
+			
+			-- Set your font size variable here for easy updates
+			VAR NumSize = "14px" 
+			
+			VAR DaySize = "22px" 
+			
+			RETURN 
+			    "<span style='font-size:" & DaySize & "'><b>" & TopDay & "</b></span><br>" & 
+			    "Has the highest number of vehicles stolen with <span style='font-size:" & NumSize & "'><b>" & MaxNum & "</b></span>" &
+			    "<br>" &
+			    "<span style='font-size:" & NumSize & "'><b>" & "While" & "</b></span><br>" &
+			    "<span style='font-size:" & DaySize & "'><b>" & BottomDay & "</b></span><br>" & 
+			    "Has the least number of vehicles stolen with <span style='font-size:" & NumSize & "'><b>" & MinNum & "</b></span>"
+			```
+		lineageTag: f6acde48-ef69-400d-a5ab-ddc657cec8ec
+
+	measure 'Average Age' =
+			
+			AVERAGEX(stolen_vehicles, stolen_vehicles[Vehicle Age])
+		formatString: 0.0
+		lineageTag: c2cf9fb4-96e5-49bf-b698-883ea8408cea
+
+	measure 'Selected Filter' =
+			
+			VAR SelYear = SELECTEDVALUE(stolen_vehicles[Year])
+			VAR SelMonth = SELECTEDVALUE(stolen_vehicles[Month Name])
+			
+			RETURN
+			SelYear & " - " & SelMonth
+		lineageTag: 881aa08c-9eeb-4e83-81da-b424d59aed2d
+
+	measure ReadMe = ```
+			
+			" <div style='font-family: Segoe UI, sans-serif; padding: 10px; color: #24292e; background-color: #e5e5e5; border: 1px solid #e5e5e5; border-radius: 15px;'>
+			    
+			    <h1 style='text-align: center; font-weight: bold; font-size: 54px; border-bottom: 1px solid #eaecef; padding-bottom: 10px;'>
+			        Motor Vehicle Thefts Analysis
+			    </h1>
+			
+			    <h2 style='text-align: center; font-weight: bold; font-size: 38px; color: #333333;'>
+			        Brief Info About The Data
+			    </h2>
+			
+			    <p style='line-height: 1.6; font-size: 20px; margin-top: 15px;'>
+			        Stolen vehicle data from the New Zealand police department's vehicle of interest database containing 6 months of data. Each record represents a single stolen vehicle, with data on vehicle type, make, year, color, date stolen and region stolen.
+			    </p>
+			
+			    <p style='line-height: 1.6; font-size: 20px; margin-top: 15px;'>
+			    <a href=https://www.police.govt.nz/can-you-help-us/stolen-vehicles>Source: Newzealand Police Department</a> 
+			    </p>
+			
+			    <h3 style='text-align: left; font-weight: bold; font-size: 34px; margin-top: 25px; border-bottom: 1px solid #eaecef;'>
+			        Analysis Done
+			    </h3>
+			
+			    <ul style='line-height: 1.8; font-size: 30px; margin-top: 10px;'>
+			        <li style='font-size: 20px;'>What day of the week are vehicles most often and least often stolen?</li>
+			        <li style='font-size: 20px;'>What types of vehicles are most often and least often stolen? Does this vary by region?</li>
+			        <li style='font-size: 20px;'>What is the average age of the vehicles that are stolen? Does this vary based on the vehicle type?</li>
+			        <li style='font-size: 20px;'>Which regions have the most and least number of stolen vehicles? What are the characteristics of the regions?</li>
+			    </ul>
+			
+			    <p style='line-height: 1.6; font-size: 20px; margin-top: 15px;'>
+			    <a href=https://github.com/raphaelsimon9>View Github Profile</a> 
+			    </p>
+			
+			</div> "
+			```
+		lineageTag: bae5bb42-bd0b-4871-86b4-5043d095f983
+
+	partition 'All Measures' = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+

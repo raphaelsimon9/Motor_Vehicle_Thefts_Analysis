@@ -1,0 +1,260 @@
+table stolen_vehicles
+	lineageTag: b2dcd000-fb42-4a91-b7e6-01f6eacd6607
+
+	column vehicle_id
+		dataType: int64
+		formatString: 0
+		lineageTag: f5309cac-c2b1-45e0-beea-b4f249366a57
+		summarizeBy: sum
+		sourceColumn: vehicle_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column vehicle_type
+		dataType: string
+		lineageTag: fcb8e6d1-641c-497e-afe6-6ce09388ab3f
+		summarizeBy: none
+		sourceColumn: vehicle_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column make_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 0b9d21d2-8b42-4ab4-b312-a9e0cea0bf5d
+		summarizeBy: sum
+		sourceColumn: make_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column model_year
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d7abbe2-2f9b-4d72-aa25-29f612e3a77d
+		summarizeBy: sum
+		sourceColumn: model_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column vehicle_desc
+		dataType: string
+		lineageTag: 7f744c74-5558-4ba1-9ee1-2461187b0a41
+		summarizeBy: none
+		sourceColumn: vehicle_desc
+
+		annotation SummarizationSetBy = Automatic
+
+	column color
+		dataType: string
+		lineageTag: 5e44b17f-b188-4162-b4c2-dec5daf060dd
+		summarizeBy: none
+		sourceColumn: color
+
+		annotation SummarizationSetBy = Automatic
+
+	column date_stolen
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 787c78c4-4453-4d8e-9ec3-a8d9fab37d9b
+		summarizeBy: none
+		sourceColumn: date_stolen
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column location_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 7b35bd5f-7ac5-4ee0-89d6-1168174b31f5
+		summarizeBy: sum
+		sourceColumn: location_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column region
+		dataType: string
+		lineageTag: 68d442a4-d9e0-450a-962d-88c83a73a6f9
+		summarizeBy: none
+		sourceColumn: region
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: a0b2883c-15f1-4872-abb1-9d58782d3ef6
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column population
+		dataType: int64
+		formatString: 0
+		lineageTag: 334ce2c9-22b1-4adf-aafe-ce4ee5fb3cca
+		summarizeBy: sum
+		sourceColumn: population
+
+		annotation SummarizationSetBy = Automatic
+
+	column density
+		dataType: double
+		lineageTag: efa52173-a981-4937-a027-8fbe29929769
+		summarizeBy: sum
+		sourceColumn: density
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column make_name
+		dataType: string
+		lineageTag: 87a69591-7613-4c7c-80ae-3a1ecc839c6b
+		summarizeBy: none
+		sourceColumn: make_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column make_type
+		dataType: string
+		lineageTag: c38e3e13-599f-4730-ab2a-1c5d44062912
+		summarizeBy: none
+		sourceColumn: make_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day Name'
+		dataType: string
+		lineageTag: a6ee6ad9-d7ed-443c-8afe-8688ee37a337
+		summarizeBy: none
+		sourceColumn: Day Name
+		sortByColumn: 'Day of Week'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 7aecb9f6-5700-40e3-9a4c-9e40cd35cb66
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Name'
+		dataType: string
+		lineageTag: c7ecd763-8839-4f58-bb66-1b6cbf829917
+		summarizeBy: none
+		sourceColumn: Month Name
+		sortByColumn: Month
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Start of Month'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 8f67ef8f-f4bd-40f7-81c4-d792f8087e95
+		summarizeBy: none
+		sourceColumn: Start of Month
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Start of Week'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: a319ae2e-b2a4-41c3-94ca-aa532e1f69da
+		summarizeBy: none
+		sourceColumn: Start of Week
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Quarter
+		dataType: string
+		lineageTag: 8f754506-7e77-41c4-a3e8-d9b449e9b3ee
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Start of Quarter'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: ae9a0fe8-ef7d-45fd-830d-d5d6ecfe9dc8
+		summarizeBy: none
+		sourceColumn: Start of Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Short Day Name'
+		dataType: string
+		lineageTag: 504bc820-e1c1-4ff4-ad42-3838d6afa26f
+		summarizeBy: none
+		sourceColumn: Short Day Name
+		sortByColumn: 'Day of Week'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Day of Week'
+		dataType: int64
+		formatString: 0
+		lineageTag: 9ecd49b8-37c8-41b4-b3fa-2d29f12220ec
+		summarizeBy: sum
+		sourceColumn: Day of Week
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: int64
+		formatString: 0
+		lineageTag: 449456d8-a50b-48f4-a6b6-13db0a002b88
+		summarizeBy: sum
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Vehicle Age' =
+			
+			INT(YEARFRAC(stolen_vehicles[date_stolen], UTCNOW(), 1))
+		formatString: 0
+		lineageTag: 3fcf39e2-5074-48d1-9dfd-cb9b6af6d1b2
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition stolen_vehicles = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\Rafael\Documents\GitHub\Motor_Vehicle_Thefts\stolen_vehicles.csv"),[Delimiter=",", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"vehicle_id", Int64.Type}, {"vehicle_type", type text}, {"make_id", Int64.Type}, {"model_year", Int64.Type}, {"vehicle_desc", type text}, {"color", type text}, {"date_stolen", type date}, {"location_id", Int64.Type}, {"region", type text}, {"country", type text}, {"population", Int64.Type}, {"density", type number}, {"make_name", type text}, {"make_type", type text}}),
+				    #"Inserted Day Name" = Table.AddColumn(#"Changed Type", "Short Day Name", each if Date.DayOfWeekName([date_stolen]) = "Thursday" then Text.Start(Date.DayOfWeekName([date_stolen]), 4) else Text.Start(Date.DayOfWeekName([date_stolen]), 3), type text),
+				    #"Inserted Year" = Table.AddColumn(#"Inserted Day Name", "Year", each Date.Year([date_stolen]), Int64.Type),
+				    #"Inserted Month Name" = Table.AddColumn(#"Inserted Year", "Month Name", each Date.MonthName([date_stolen]), type text),
+				    #"Inserted Start of Month" = Table.AddColumn(#"Inserted Month Name", "Start of Month", each Date.StartOfMonth([date_stolen]), type date),
+				    #"Inserted Start of Week" = Table.AddColumn(#"Inserted Start of Month", "Start of Week", each Date.StartOfWeek([date_stolen]), type date),
+				    #"Inserted Quarter" = Table.AddColumn(#"Inserted Start of Week", "Quarter", each "Q" & Text.From(Date.QuarterOfYear([date_stolen])), type text),
+				    #"Inserted Start of Quarter" = Table.AddColumn(#"Inserted Quarter", "Start of Quarter", each Date.StartOfQuarter([date_stolen]), type date),
+				    #"Extracted First Characters" = Table.TransformColumns(#"Inserted Start of Quarter", {{"Month Name", each Text.Start(_, 3), type text}}),
+				    #"Inserted Day Name1" = Table.AddColumn(#"Extracted First Characters", "Day Name", each Date.DayOfWeekName([date_stolen]), type text),
+				    #"Inserted Day of Week" = Table.AddColumn(#"Inserted Day Name1", "Day of Week", each Date.DayOfWeek([date_stolen], Day.Monday) + 1, Int64.Type),
+				    #"Inserted Month" = Table.AddColumn(#"Inserted Day of Week", "Month", each Date.Month([date_stolen]), Int64.Type)
+				in
+				    #"Inserted Month"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,39 @@
+table 'Data Labels'
+	lineageTag: 53c7a2cd-fe25-4a4b-878e-6f0cdecea433
+
+	column date_stolen
+		formatString: General Date
+		lineageTag: fe3aa1ed-62ff-4a42-bbca-256184e23b6f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: stolen_vehicles[date_stolen]
+
+		annotation SummarizationSetBy = Automatic
+
+	column TheftCount
+		formatString: 0
+		lineageTag: 61930c3f-a8a6-401d-b153-8b0bfe12b277
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [TheftCount]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Data Labels' = calculated
+		mode: import
+		source = ```
+				
+				
+				VAR DayCounts = 
+				    SUMMARIZE(
+				        stolen_vehicles, 
+				        stolen_vehicles[date_stolen], 
+				        "TheftCount", [Number of Vehicles]
+				    )
+				
+				RETURN
+				DayCounts
+				```
+
+	annotation PBI_Id = 2645ecf9647147c9857595447d1f6fb3
+

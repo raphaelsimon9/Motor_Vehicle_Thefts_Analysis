@@ -1,0 +1,5619 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "stolen_vehicle": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stolen vehicle": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "stolen_vehicles": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vehicle": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "stolen car": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "stolen lorry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "car": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lorry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stolen bus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "stolen van": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "stolen automobile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "stolen truck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "bus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "van": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.vehicle_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "vehicle_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vehicle id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "vehicle_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vehicle": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "vehicle identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vehicle identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vehicle identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vehicle credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "car": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "lorry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "van": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "automobile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "truck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "stolen_vehicle.vehicle_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "vehicle_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vehicle type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vehicle_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "vehicle category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vehicle genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vehicle manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vehicle variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "vehicle brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "vehicle class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.make_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "make_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "make id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "make_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "make": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "make identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "make identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "make identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "make credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.model_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "model_year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "model year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "model_year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "model yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "stolen_vehicle.vehicle_desc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "vehicle_desc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vehicle desc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vehicle_desc": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vehicle description": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "shade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dye": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "paint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pigment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.date_stolen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "date_stolen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date stolen": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date_stolen": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment stolen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period stolen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "stolen_vehicle.location_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "location_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "location id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "location": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "location identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "location identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "location identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "venue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.population": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "population"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "population": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "populace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.density": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "density"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "density": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "compactness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "concentration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "solidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "concreteness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "thickness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stupidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "denseness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "slowness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.make_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "make_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "make name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "make_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "make": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "make nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "make title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "make label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "make tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "style": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.make_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "make_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "make type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "make_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "make category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "make genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "make manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "make variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "make brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "make class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.day_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Day Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "day title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "day label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "day tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "stolen_vehicle.month_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Month Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.start_of_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Start of Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "start of month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "start": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "start of mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "twitch of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "jump of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "jerk of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "flinch of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "jolt of month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "stolen_vehicle.start_of_week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Start of Week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "start of week": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "start": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "twitch of week": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "jump of week": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "jerk of week": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "flinch of week": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "jolt of week": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jolt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "stolen_vehicle.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.start_of_quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Start of Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "start of quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "start": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "start of qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.677
+			          }
+			        },
+			        {
+			          "twitch of quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "jump of quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "jerk of quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "flinch of quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "jolt of quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "stolen_vehicle.short_day_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Short Day Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "short day name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "short day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "short day nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "short day title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "short day label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "short day tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.day_of_week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Day of Week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day of week": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "stolen_vehicle.vehicle_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "stolen_vehicles",
+			          "ConceptualProperty": "Vehicle Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vehicle age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "vehicle oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "vehicle stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "vehicle phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "vehicle era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "vehicle epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "all measure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "measure": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "all degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "all quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "all quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "all extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quota": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "all amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "all portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "all ration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.highest_theft_day_of_week": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Highest Theft Day of Week"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "highest theft day of week": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "theft day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.number_of_vehicles": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Number of Vehicles"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "number of vehicles": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quantity of vehicle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.769
+			          }
+			        },
+			        {
+			          "amount of vehicle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.746
+			          }
+			        },
+			        {
+			          "count of vehicle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.746
+			          }
+			        },
+			        {
+			          "number of vehicle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.746
+			          }
+			        },
+			        {
+			          "no of vehicle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.max_marker": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Max Marker"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "max marker": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "marker": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "maximum marker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "max indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "max pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "max indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "max sign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "max symbol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.min_marker": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Min Marker"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "min marker": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "marker": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "minimum marker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "min indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "min pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "indication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pointer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "min indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "min sign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "min symbol": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "indicator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.data_labels": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Data Labels"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data labels": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "labels": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "information label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "data sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data marker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.marker_color_logic": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Marker Color Logic"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marker color logic": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "logic": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "color logic": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "marker color judgement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "marker color judgment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "marker color lucidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "marker color rationality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "marker color sensibleness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "marker color soundness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "color judgement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "color judgment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "color lucidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "color rationality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.most_stolen_vehicle": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Most Stolen Vehicle"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "most stolen vehicle": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "most stolen car": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "most stolen lorry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "most stolen bus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "most stolen van": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "most stolen automobile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "most stolen truck": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "most stolen mouthpiece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "most stolen agent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "most stolen conduit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "most stolen medium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.most_stolen_vehicle_reference_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Most Stolen Vehicle (Reference Label)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "most stolen vehicle (reference label)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "most stolen vehicle": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.max_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Max Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "max number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "max no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "maximum number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.min_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Min Number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "min number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "min no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "minimum number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.max_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Max Num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "max num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "maximum num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.min_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Min Num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "min num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "minimum num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.highest_theft_day_of_week_HTML": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Highest Theft Day of Week (HTML)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "highest theft day of week (HTML)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "highest theft day of week": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "all_measure.average_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "All Measures",
+			          "ConceptualProperty": "Average Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "average stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "average era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "average epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "Overall Avg Vehicle Age:": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "data_labels": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Labels"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data labels": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data label": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "labels": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "information label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "data sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data marker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "data_labels.date_stolen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Labels",
+			          "ConceptualProperty": "date_stolen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date stolen": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date_stolen": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment stolen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period stolen": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "data_labels.theft_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Labels",
+			          "ConceptualProperty": "TheftCount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "theft count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TheftCount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "theft amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "VAR_RegionCount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VAR RegionCounts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "VAR RegionCount": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "VAR_RegionCount.vehicle_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VAR RegionCounts",
+			          "ConceptualProperty": "vehicle_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vehicle type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vehicle_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "vehicle category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vehicle genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vehicle manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "vehicle variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "vehicle brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "vehicle class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "VAR_RegionCount.region": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VAR RegionCounts",
+			          "ConceptualProperty": "region"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "continent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "VAR_RegionCount.region_theft_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "VAR RegionCounts",
+			          "ConceptualProperty": "RegionTheftCount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "region theft count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RegionTheftCount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "region theft amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "location theft count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.677
+			          }
+			        },
+			        {
+			          "province theft count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "area theft count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "district theft count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "section theft count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "zone theft count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "continent theft count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "data_labels_has_date_stolen": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Labels"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_labels": {
+			          "Target": {
+			            "Entity": "data_labels"
+			          }
+			        },
+			        "data_labels.date_stolen": {
+			          "Target": {
+			            "Entity": "data_labels.date_stolen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_labels"
+			            },
+			            "Object": {
+			              "Role": "data_labels.date_stolen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_labels_have_date_stolen"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_average_age": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.average_age": {
+			          "Target": {
+			            "Entity": "all_measure.average_age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.average_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_average_age"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "all_measure.average_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "average_age_indicates_how_old_stolen_vehicles_are"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_highest_theft_day_of_week_HTML": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.highest_theft_day_of_week_HTML": {
+			          "Target": {
+			            "Entity": "all_measure.highest_theft_day_of_week_HTML"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.highest_theft_day_of_week_HTML"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_highest_theft_day_of_week_HTML"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_min_num": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.min_num": {
+			          "Target": {
+			            "Entity": "all_measure.min_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.min_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_min_num"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_max_num": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.max_num": {
+			          "Target": {
+			            "Entity": "all_measure.max_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.max_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_max_num"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_min_number": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.min_number": {
+			          "Target": {
+			            "Entity": "all_measure.min_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.min_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_min_number"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_max_number": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.max_number": {
+			          "Target": {
+			            "Entity": "all_measure.max_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.max_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_max_number"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_most_stolen_vehicle_reference_label": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.most_stolen_vehicle_reference_label": {
+			          "Target": {
+			            "Entity": "all_measure.most_stolen_vehicle_reference_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.most_stolen_vehicle_reference_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_most_stolen_vehicle_reference_label"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_most_stolen_vehicle": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.most_stolen_vehicle": {
+			          "Target": {
+			            "Entity": "all_measure.most_stolen_vehicle"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.most_stolen_vehicle"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_most_stolen_vehicle"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_marker_color_logic": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.marker_color_logic": {
+			          "Target": {
+			            "Entity": "all_measure.marker_color_logic"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.marker_color_logic"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_marker_color_logic"
+			        }
+			      ]
+			    },
+			    "all_measure_has_data_labels": {
+			      "Binding": {
+			        "ConceptualEntity": "All Measures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "all_measure": {
+			          "Target": {
+			            "Entity": "all_measure"
+			          }
+			        },
+			        "all_measure.data_labels": {
+			          "Target": {
+			            "Entity": "all_measure.data_labels"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "all_measure"
+			            },
+			            "Object": {
+			              "Role": "all_measure.data_labels"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "all_measures_have_data_labels"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_min_marker": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.min_marker": {
+			          "Target": {
+			            "Entity": "all_measure.min_marker"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.min_marker"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_min_marker"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_max_marker": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.max_marker": {
+			          "Target": {
+			            "Entity": "all_measure.max_marker"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.max_marker"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_max_marker"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_number_of_vehicles": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.number_of_vehicles": {
+			          "Target": {
+			            "Entity": "all_measure.number_of_vehicles"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.number_of_vehicles"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_number_of_vehicles"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_all_measure_highest_theft_day_of_week": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "all_measure.highest_theft_day_of_week": {
+			          "Target": {
+			            "Entity": "all_measure.highest_theft_day_of_week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "all_measure.highest_theft_day_of_week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_highest_theft_day_of_week"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_vehicle_age": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.vehicle_age": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.vehicle_age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.vehicle_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_vehicle_ages"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "stolen_vehicle.vehicle_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vehicle_age_indicates_how_old_stolen_vehicles_are"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.month": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_months"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_day_of_week": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.day_of_week": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.day_of_week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.day_of_week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_day_of_week"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_short_day_name": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.short_day_name": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.short_day_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.short_day_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_short_day_names"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_start_of_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.start_of_quarter": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.start_of_quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.start_of_quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_start_of_quarter"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.quarter": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_quarters"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_start_of_week": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.start_of_week": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.start_of_week"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.start_of_week"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_start_of_week"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_start_of_month": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.start_of_month": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.start_of_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.start_of_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_start_of_month"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_month_name": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.month_name": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.month_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.month_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_month_names"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.year": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_years"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_day_name": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.day_name": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.day_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.day_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_day_names"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_make_type": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.make_type": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.make_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.make_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_make_types"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_make_name": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.make_name": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.make_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.make_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_make_names"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_density": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.density": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.density"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.density"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_densities"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_population": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.population": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.population"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_populations"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Adjectives": [
+			              {
+			                "large": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "big": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "populated": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "small": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "stolen_vehicle.population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "population_indicates_how_large_stolen_vehicles_are"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.country": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_countries"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_region": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.region": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_regions"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_location_id": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.location_id": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.location_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.location_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_location_ids"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_date_stolen": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.date_stolen": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.date_stolen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.date_stolen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_date_stolen"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_color": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.color": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_colors"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_vehicle_desc": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.vehicle_desc": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.vehicle_desc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.vehicle_desc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_vehicle_descs"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_model_year": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.model_year": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.model_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.model_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_model_years"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_make_id": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.make_id": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.make_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.make_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_make_ids"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_vehicle_type": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.vehicle_type": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.vehicle_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.vehicle_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_vehicle_types"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_has_vehicle_id": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.vehicle_id": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.vehicle_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Object": {
+			              "Role": "stolen_vehicle.vehicle_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_have_vehicle_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Name": {
+			              "Role": "stolen_vehicle.vehicle_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vehicle_ids_are_names_IDs_of_stolen_vehicles"
+			        }
+			      ]
+			    },
+			    "VAR_RegionCount_in_region": {
+			      "Binding": {
+			        "ConceptualEntity": "VAR RegionCounts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "VAR_RegionCount": {
+			          "Target": {
+			            "Entity": "VAR_RegionCount"
+			          }
+			        },
+			        "VAR_RegionCount.region": {
+			          "Target": {
+			            "Entity": "VAR_RegionCount.region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "VAR_RegionCount.region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "VAR_RegionCount"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "VAR_RegionCount.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "VAR_RegionCounts_are_in_regions"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.country": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "stolen_vehicle.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stolen_vehicle.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_are_in_countries"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_in_region": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.region": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.region"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "stolen_vehicle.region"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "stolen_vehicle"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stolen_vehicle.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "stolen_vehicles_are_in_regions"
+			        }
+			      ]
+			    },
+			    "data_labels_is_stolen_on_date_stolen": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Labels"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_labels": {
+			          "Target": {
+			            "Entity": "data_labels"
+			          }
+			        },
+			        "data_labels.date_stolen": {
+			          "Target": {
+			            "Entity": "data_labels.date_stolen"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "data_labels.date_stolen"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "steal": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data_labels"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "data_labels_are_stolen_on_date_stolen"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_is_stolen_on_date_stolen": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.date_stolen": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.date_stolen"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "stolen_vehicle.date_stolen"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "steal": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stolen_vehicle"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "stolen_vehicles_are_stolen_on_date_stolen"
+			        }
+			      ]
+			    },
+			    "stolen_vehicle_is_modelled_in_model_year": {
+			      "Binding": {
+			        "ConceptualEntity": "stolen_vehicles"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "stolen_vehicle": {
+			          "Target": {
+			            "Entity": "stolen_vehicle"
+			          }
+			        },
+			        "stolen_vehicle.model_year": {
+			          "Target": {
+			            "Entity": "stolen_vehicle.model_year"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "stolen_vehicle.model_year"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "model": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "stolen_vehicle"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "stolen_vehicles_are_modelled_on_model_years"
+			        }
+			      ]
+			    },
+			    "data_labels_has_theft_count": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Labels"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_labels": {
+			          "Target": {
+			            "Entity": "data_labels"
+			          }
+			        },
+			        "data_labels.theft_count": {
+			          "Target": {
+			            "Entity": "data_labels.theft_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_labels"
+			            },
+			            "Object": {
+			              "Role": "data_labels.theft_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_labels_have_theft_counts"
+			        }
+			      ]
+			    },
+			    "VAR_RegionCount_has_vehicle_type": {
+			      "Binding": {
+			        "ConceptualEntity": "VAR RegionCounts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "VAR_RegionCount": {
+			          "Target": {
+			            "Entity": "VAR_RegionCount"
+			          }
+			        },
+			        "VAR_RegionCount.vehicle_type": {
+			          "Target": {
+			            "Entity": "VAR_RegionCount.vehicle_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "VAR_RegionCount"
+			            },
+			            "Object": {
+			              "Role": "VAR_RegionCount.vehicle_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "VAR_RegionCounts_have_vehicle_types"
+			        }
+			      ]
+			    },
+			    "VAR_RegionCount_has_region": {
+			      "Binding": {
+			        "ConceptualEntity": "VAR RegionCounts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "VAR_RegionCount": {
+			          "Target": {
+			            "Entity": "VAR_RegionCount"
+			          }
+			        },
+			        "VAR_RegionCount.region": {
+			          "Target": {
+			            "Entity": "VAR_RegionCount.region"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "VAR_RegionCount"
+			            },
+			            "Object": {
+			              "Role": "VAR_RegionCount.region"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "VAR_RegionCounts_have_regions"
+			        }
+			      ]
+			    },
+			    "VAR_RegionCount_has_region_theft_count": {
+			      "Binding": {
+			        "ConceptualEntity": "VAR RegionCounts"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "VAR_RegionCount": {
+			          "Target": {
+			            "Entity": "VAR_RegionCount"
+			          }
+			        },
+			        "VAR_RegionCount.region_theft_count": {
+			          "Target": {
+			            "Entity": "VAR_RegionCount.region_theft_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "VAR_RegionCount"
+			            },
+			            "Object": {
+			              "Role": "VAR_RegionCount.region_theft_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "VAR_RegionCounts_have_region_theft_counts"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

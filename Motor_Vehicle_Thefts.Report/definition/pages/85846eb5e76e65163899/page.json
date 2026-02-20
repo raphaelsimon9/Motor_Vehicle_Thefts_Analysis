@@ -1,0 +1,165 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "85846eb5e76e65163899",
+  "displayName": "Vehicle Theft",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Background.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "Background0644967913907406.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fill'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspace": [
+      {
+        "properties": {
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "100D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "3e567ad9f4cbc51334ce",
+      "target": "2f47ed6326736a11c9cd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d4186f993ecc9d41b314",
+      "target": "2f47ed6326736a11c9cd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "73aaa381b7526e590929",
+      "target": "2f47ed6326736a11c9cd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "73aaa381b7526e590929",
+      "target": "4a98ad7b9b0230adc80b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "73aaa381b7526e590929",
+      "target": "e40f9020aa24db8cba8f",
+      "type": "NoFilter"
+    },
+    {
+      "source": "73aaa381b7526e590929",
+      "target": "4c22814d3b205bad8dcb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2f47ed6326736a11c9cd",
+      "target": "4c22814d3b205bad8dcb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2f47ed6326736a11c9cd",
+      "target": "4a98ad7b9b0230adc80b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2f47ed6326736a11c9cd",
+      "target": "4cdb4e02dbc9006e0209",
+      "type": "NoFilter"
+    },
+    {
+      "source": "2f47ed6326736a11c9cd",
+      "target": "e40f9020aa24db8cba8f",
+      "type": "NoFilter"
+    },
+    {
+      "source": "e40f9020aa24db8cba8f",
+      "target": "4c22814d3b205bad8dcb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "e40f9020aa24db8cba8f",
+      "target": "4cdb4e02dbc9006e0209",
+      "type": "NoFilter"
+    },
+    {
+      "source": "e40f9020aa24db8cba8f",
+      "target": "4a98ad7b9b0230adc80b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b3b27e488092004a9b8",
+      "target": "e40f9020aa24db8cba8f",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b3b27e488092004a9b8",
+      "target": "4c22814d3b205bad8dcb",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b3b27e488092004a9b8",
+      "target": "4cdb4e02dbc9006e0209",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b3b27e488092004a9b8",
+      "target": "4a98ad7b9b0230adc80b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "7b3b27e488092004a9b8",
+      "target": "2f47ed6326736a11c9cd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c22814d3b205bad8dcb",
+      "target": "2f47ed6326736a11c9cd",
+      "type": "NoFilter"
+    },
+    {
+      "source": "4c22814d3b205bad8dcb",
+      "target": "4cdb4e02dbc9006e0209",
+      "type": "NoFilter"
+    }
+  ]
+}

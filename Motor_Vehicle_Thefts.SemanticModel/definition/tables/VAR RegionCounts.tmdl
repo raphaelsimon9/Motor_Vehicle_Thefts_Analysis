@@ -1,0 +1,42 @@
+table 'VAR RegionCounts'
+	lineageTag: 2a4e34e4-f0a5-47a7-b220-d541c9aa6af9
+
+	column vehicle_type
+		lineageTag: 3eee5295-cbb7-4b43-92e6-fd1193f234b7
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: stolen_vehicles[vehicle_type]
+
+		annotation SummarizationSetBy = Automatic
+
+	column region
+		lineageTag: a48454d4-b25a-4b19-b50f-59e9e4d2c3f7
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: stolen_vehicles[region]
+
+		annotation SummarizationSetBy = Automatic
+
+	column RegionTheftCount
+		formatString: 0
+		lineageTag: 7f2aeab9-0aec-4343-9bf2-1b9a7a047b65
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [RegionTheftCount]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'VAR RegionCounts' = calculated
+		mode: import
+		source = ```
+				
+				        SUMMARIZE(
+				        stolen_vehicles,
+				        stolen_vehicles[vehicle_type],
+				        stolen_vehicles[region],
+				        "RegionTheftCount", COUNTROWS(stolen_vehicles)
+				    )
+				```
+
+	annotation PBI_Id = 4ad2411b8f2b484d88a67d3ac78db361
+
